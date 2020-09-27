@@ -23,7 +23,7 @@ Added in: ``v0.1.0``
 ```js
 os.homeDir() // return the system home directory 
 ```
-##### get Os temp directory pthe:
+##### get Os temp directory path:
 Added in: ``v0.1.0``
 ```js
 os.tempDir() // return the system temp directory
