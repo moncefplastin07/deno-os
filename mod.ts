@@ -1,8 +1,8 @@
-import systemPaths from './os/systemPaths.ts'
-import systemInfo from './os/systemInfo.ts'
-const os:any = {
-    ...systemPaths,
-    ...systemInfo
-}
+import systemPaths from "./os/systemPaths.ts";
+import systemInfo from "./os/systemInfo.ts";
+const os = {
+  ...systemPaths,
+  ...systemInfo,
+};
 
-export default os
+export default os;
