@@ -1,6 +1,6 @@
 const { env } = Deno;
 import { SystemPaths } from "../types.d.ts";
-const systemPaths: SystemPaths= {
+const systemPaths: SystemPaths = {
   /**
     * @description return the system home dir
     * @returns { string }

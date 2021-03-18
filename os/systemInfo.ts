@@ -22,14 +22,14 @@ const systemInfo: SystemInfo = {
     * @returns { string }
     * @since v0.11.0 
     */
-   EOL: () => systemInfo.platform() === 'windows' ? '\n' : '\r\n',
+  EOL: () => systemInfo.platform() === "windows" ? "\n" : "\r\n",
 
-   /**
+  /**
     * @description return the operating system hostname 
     * @returns { string }
     * @since v0.11.0 
     */
-  hostname: ()=> hostname(),
+  hostname: () => hostname(),
 };
 
 export default systemInfo;

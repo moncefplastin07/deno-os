@@ -18,7 +18,7 @@ export interface SystemInfo {
    * 
    */
   arch(): Promise<"x64" | "x86">;
-   
+
   /** 
    * The operating system `end-of-line` marker.
    * 
@@ -27,7 +27,7 @@ export interface SystemInfo {
    * ```
    * 
    */
-  EOL(): '\n' | '\r\n';
+  EOL(): "\n" | "\r\n";
 
   /** 
    * The operating system `hostname`.
@@ -40,8 +40,7 @@ export interface SystemInfo {
   hostname(): string;
 }
 
-export interface SystemPaths{
-
+export interface SystemPaths {
   /** 
    * The operating system `home path directory`.
    * 
@@ -52,7 +51,7 @@ export interface SystemPaths{
    * ```
    * 
    */
-  homeDir(): string | undefined,
+  homeDir(): string | undefined;
 
   /** 
    * The operating system `temporary files directory`.
@@ -63,5 +62,5 @@ export interface SystemPaths{
    * 
   
    */
-  tempDir(): string | undefined
+  tempDir(): string | undefined;
 }
