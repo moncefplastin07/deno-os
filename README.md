@@ -46,19 +46,23 @@ Added in: `v0.1.0` **Required permissions:**
 - `--allow-env`
 
 ```js
-os.tempDir() // return the system temp directory
+os.tempDir() // return the system temp directory.
 ;
 ```
 
 ##### get operating system end-of-line:
-get operating system `end-of-line` marker, e.g: `\n` in Linux and Mac, `\r\n` in Windows 
+get operating system `end-of-line` marker, e.g: `\n` in Linux and Mac, `\r\n` in Windows.
 
-Added in: `v0.11.0` **Required permissions:**
-
-- `--allow-env`
-
+Added in: `v0.11.0` 
 ```js
-os.EOL() // operating system `end-of-line` marker, e.g: \n in Linux and mac 
-;
+os.EOL() // return the operating system end-of-line marker
+```
+
+##### get operating system hostname:
+get operating system `hostname`. unstable API (Require --unstable flag)
+
+Added in: `v0.11.0` 
+```js
+os.hostname() // return the operating system operating system hostname.
 ```
 ## Contribute with us from [`here`](https://github.com/moncefplastin07/deno-os)
