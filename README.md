@@ -5,7 +5,7 @@
 ### Import the module in your deno app
 
 ```js
-import os from "https://deno.land/x/dos@v0.1.2/mod.ts";
+import os from "https://deno.land/x/dos@v0.11.0/mod.ts";
 ```
 
 #### Usage:
@@ -16,7 +16,6 @@ Added in: `v0.1.0`
 
 ```js
 os.platform() // return the os platform for eg: windows, linux, darwin on mac ..
-;
 ```
 
 ##### get Os name (x86, x64):
@@ -25,7 +24,6 @@ Added in: `v0.1.0`
 
 ```js
 await os.arch() // return the os architecture x86 Or x64
-;
 ```
 
 ##### get system user home directory pthe:
@@ -36,7 +34,6 @@ Added in: `v0.1.0` **Required permissions:**
 
 ```js
 os.homeDir() // return the system home directory
-;
 ```
 
 ##### get Os temp directory path:
