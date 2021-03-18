@@ -1,5 +1,6 @@
 const { env } = Deno;
-const systemPaths = {
+import { SystemPaths } from "../types.d.ts";
+const systemPaths: SystemPaths= {
   /**
     * @description return the system home dir
     * @returns { string }
@@ -8,7 +9,7 @@ const systemPaths = {
   homeDir: () => env.get("HOME") ?? env.get("USERPROFILE"),
 
   /**
-    * @description return the system Temporary files dir
+    * @description return the system temporary files directory
     * @returns { string }
     * @since v0.1.0
     */
